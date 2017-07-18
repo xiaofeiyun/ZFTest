@@ -14,6 +14,23 @@
 		3F961FFA1EA3A20F00821E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F961FF81EA3A20F00821E0A /* LaunchScreen.storyboard */; };
 		3F9620051EA3A21000821E0A /* ZFTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9620041EA3A21000821E0A /* ZFTestTests.swift */; };
 		3F9620101EA3A21000821E0A /* ZFTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96200F1EA3A21000821E0A /* ZFTestUITests.swift */; };
+		3FC151971F1E16C700508942 /* libGrowing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151891F1E16C600508942 /* libGrowing.a */; };
+		3FC151AB1F1E170500508942 /* ZFGitCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151A21F1E170500508942 /* ZFGitCarthage.framework */; };
+		3FC151B21F1E170500508942 /* ZFGitCarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC151B11F1E170500508942 /* ZFGitCarthageTests.swift */; };
+		3FC151B71F1E170500508942 /* ZFGitCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151A21F1E170500508942 /* ZFGitCarthage.framework */; };
+		3FC151B81F1E170500508942 /* ZFGitCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151A21F1E170500508942 /* ZFGitCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FC151C01F1E17D100508942 /* Growing.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC151881F1E16C600508942 /* Growing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC151CC1F1E191500508942 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151C31F1E191500508942 /* libWeChatSDK.a */; };
+		3FC151CD1F1E191500508942 /* libWeChatSDK.device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151C41F1E191500508942 /* libWeChatSDK.device.a */; };
+		3FC151CE1F1E191500508942 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FC151C51F1E191500508942 /* README.txt */; };
+		3FC151CF1F1E191500508942 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC151CB1F1E191500508942 /* WXApiManager.m */; };
+		3FC151D01F1E192900508942 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC151C61F1E191500508942 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC151D11F1E192900508942 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC151C71F1E191500508942 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC151D21F1E192900508942 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC151C81F1E191500508942 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC151D31F1E192900508942 /* WXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC151CA1F1E191500508942 /* WXApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC151E41F1E215100508942 /* libGrowing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151891F1E16C600508942 /* libGrowing.a */; };
+		3FC151E51F1E216200508942 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151C31F1E191500508942 /* libWeChatSDK.a */; };
+		3FC151E61F1E216200508942 /* libWeChatSDK.device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC151C41F1E191500508942 /* libWeChatSDK.device.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +48,42 @@
 			remoteGlobalIDString = 3F961FEB1EA3A20F00821E0A;
 			remoteInfo = ZFTest;
 		};
+		3FC151AC1F1E170500508942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F961FE41EA3A20F00821E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC151A11F1E170500508942;
+			remoteInfo = ZFGitCarthage;
+		};
+		3FC151AE1F1E170500508942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F961FE41EA3A20F00821E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F961FEB1EA3A20F00821E0A;
+			remoteInfo = ZFTest;
+		};
+		3FC151B51F1E170500508942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F961FE41EA3A20F00821E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC151A11F1E170500508942;
+			remoteInfo = ZFGitCarthage;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FC151BC1F1E170500508942 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FC151B81F1E170500508942 /* ZFGitCarthage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F961FEC1EA3A20F00821E0A /* ZFTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +99,22 @@
 		3F96200B1EA3A21000821E0A /* ZFTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F96200F1EA3A21000821E0A /* ZFTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFTestUITests.swift; sourceTree = "<group>"; };
 		3F9620111EA3A21000821E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC151881F1E16C600508942 /* Growing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Growing.h; sourceTree = "<group>"; };
+		3FC151891F1E16C600508942 /* libGrowing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGrowing.a; sourceTree = "<group>"; };
+		3FC151A21F1E170500508942 /* ZFGitCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZFGitCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC151A41F1E170500508942 /* ZFGitCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFGitCarthage.h; sourceTree = "<group>"; };
+		3FC151A51F1E170500508942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC151AA1F1E170500508942 /* ZFGitCarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFGitCarthageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC151B11F1E170500508942 /* ZFGitCarthageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFGitCarthageTests.swift; sourceTree = "<group>"; };
+		3FC151B31F1E170500508942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC151C31F1E191500508942 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		3FC151C41F1E191500508942 /* libWeChatSDK.device.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.device.a; sourceTree = "<group>"; };
+		3FC151C51F1E191500508942 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3FC151C61F1E191500508942 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		3FC151C71F1E191500508942 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3FC151C81F1E191500508942 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		3FC151CA1F1E191500508942 /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		3FC151CB1F1E191500508942 /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +122,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC151B71F1E170500508942 /* ZFGitCarthage.framework in Frameworks */,
+				3FC151971F1E16C700508942 /* libGrowing.a in Frameworks */,
+				3FC151CC1F1E191500508942 /* libWeChatSDK.a in Frameworks */,
+				3FC151CD1F1E191500508942 /* libWeChatSDK.device.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +143,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FC1519E1F1E170500508942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC151E51F1E216200508942 /* libWeChatSDK.a in Frameworks */,
+				3FC151E61F1E216200508942 /* libWeChatSDK.device.a in Frameworks */,
+				3FC151E41F1E215100508942 /* libGrowing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC151A71F1E170500508942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC151AB1F1E170500508942 /* ZFGitCarthage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +170,8 @@
 				3F961FEE1EA3A20F00821E0A /* ZFTest */,
 				3F9620031EA3A21000821E0A /* ZFTestTests */,
 				3F96200E1EA3A21000821E0A /* ZFTestUITests */,
+				3FC151A31F1E170500508942 /* ZFGitCarthage */,
+				3FC151B01F1E170500508942 /* ZFGitCarthageTests */,
 				3F961FED1EA3A20F00821E0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +182,8 @@
 				3F961FEC1EA3A20F00821E0A /* ZFTest.app */,
 				3F9620001EA3A21000821E0A /* ZFTestTests.xctest */,
 				3F96200B1EA3A21000821E0A /* ZFTestUITests.xctest */,
+				3FC151A21F1E170500508942 /* ZFGitCarthage.framework */,
+				3FC151AA1F1E170500508942 /* ZFGitCarthageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +193,7 @@
 			children = (
 				3F961FEF1EA3A20F00821E0A /* AppDelegate.swift */,
 				3F961FF11EA3A20F00821E0A /* ViewController.swift */,
+				3FC151861F1E16C600508942 /* thirdPartFrameWork */,
 				3F961FF31EA3A20F00821E0A /* Main.storyboard */,
 				3F961FF61EA3A20F00821E0A /* Assets.xcassets */,
 				3F961FF81EA3A20F00821E0A /* LaunchScreen.storyboard */,
@@ -125,7 +220,81 @@
 			path = ZFTestUITests;
 			sourceTree = "<group>";
 		};
+		3FC151861F1E16C600508942 /* thirdPartFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				3FC151C21F1E191500508942 /* WechatSDK1.7.7 */,
+				3FC151871F1E16C600508942 /* GrowingIO */,
+			);
+			path = thirdPartFrameWork;
+			sourceTree = "<group>";
+		};
+		3FC151871F1E16C600508942 /* GrowingIO */ = {
+			isa = PBXGroup;
+			children = (
+				3FC151881F1E16C600508942 /* Growing.h */,
+				3FC151891F1E16C600508942 /* libGrowing.a */,
+			);
+			path = GrowingIO;
+			sourceTree = "<group>";
+		};
+		3FC151A31F1E170500508942 /* ZFGitCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				3FC151A41F1E170500508942 /* ZFGitCarthage.h */,
+				3FC151A51F1E170500508942 /* Info.plist */,
+			);
+			path = ZFGitCarthage;
+			sourceTree = "<group>";
+		};
+		3FC151B01F1E170500508942 /* ZFGitCarthageTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC151B11F1E170500508942 /* ZFGitCarthageTests.swift */,
+				3FC151B31F1E170500508942 /* Info.plist */,
+			);
+			path = ZFGitCarthageTests;
+			sourceTree = "<group>";
+		};
+		3FC151C21F1E191500508942 /* WechatSDK1.7.7 */ = {
+			isa = PBXGroup;
+			children = (
+				3FC151C31F1E191500508942 /* libWeChatSDK.a */,
+				3FC151C41F1E191500508942 /* libWeChatSDK.device.a */,
+				3FC151C51F1E191500508942 /* README.txt */,
+				3FC151C61F1E191500508942 /* WechatAuthSDK.h */,
+				3FC151C71F1E191500508942 /* WXApi.h */,
+				3FC151C81F1E191500508942 /* WXApiObject.h */,
+				3FC151C91F1E191500508942 /* WXControl */,
+			);
+			path = WechatSDK1.7.7;
+			sourceTree = "<group>";
+		};
+		3FC151C91F1E191500508942 /* WXControl */ = {
+			isa = PBXGroup;
+			children = (
+				3FC151CA1F1E191500508942 /* WXApiManager.h */,
+				3FC151CB1F1E191500508942 /* WXApiManager.m */,
+			);
+			path = WXControl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FC1519F1F1E170500508942 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC151C01F1E17D100508942 /* Growing.h in Headers */,
+				3FC151D01F1E192900508942 /* WechatAuthSDK.h in Headers */,
+				3FC151D11F1E192900508942 /* WXApi.h in Headers */,
+				3FC151D21F1E192900508942 /* WXApiObject.h in Headers */,
+				3FC151D31F1E192900508942 /* WXApiManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3F961FEB1EA3A20F00821E0A /* ZFTest */ = {
@@ -135,10 +304,12 @@
 				3F961FE81EA3A20F00821E0A /* Sources */,
 				3F961FE91EA3A20F00821E0A /* Frameworks */,
 				3F961FEA1EA3A20F00821E0A /* Resources */,
+				3FC151BC1F1E170500508942 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3FC151B61F1E170500508942 /* PBXTargetDependency */,
 			);
 			name = ZFTest;
 			productName = ZFTest;
@@ -181,6 +352,43 @@
 			productReference = 3F96200B1EA3A21000821E0A /* ZFTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3FC151A11F1E170500508942 /* ZFGitCarthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC151B91F1E170500508942 /* Build configuration list for PBXNativeTarget "ZFGitCarthage" */;
+			buildPhases = (
+				3FC1519D1F1E170500508942 /* Sources */,
+				3FC1519E1F1E170500508942 /* Frameworks */,
+				3FC1519F1F1E170500508942 /* Headers */,
+				3FC151A01F1E170500508942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFGitCarthage;
+			productName = ZFGitCarthage;
+			productReference = 3FC151A21F1E170500508942 /* ZFGitCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FC151A91F1E170500508942 /* ZFGitCarthageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC151BD1F1E170500508942 /* Build configuration list for PBXNativeTarget "ZFGitCarthageTests" */;
+			buildPhases = (
+				3FC151A61F1E170500508942 /* Sources */,
+				3FC151A71F1E170500508942 /* Frameworks */,
+				3FC151A81F1E170500508942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC151AD1F1E170500508942 /* PBXTargetDependency */,
+				3FC151AF1F1E170500508942 /* PBXTargetDependency */,
+			);
+			name = ZFGitCarthageTests;
+			productName = ZFGitCarthageTests;
+			productReference = 3FC151AA1F1E170500508942 /* ZFGitCarthageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +413,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3F961FEB1EA3A20F00821E0A;
 					};
+					3FC151A11F1E170500508942 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FC151A91F1E170500508942 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F961FEB1EA3A20F00821E0A;
+					};
 				};
 			};
 			buildConfigurationList = 3F961FE71EA3A20F00821E0A /* Build configuration list for PBXProject "ZFTest" */;
@@ -223,6 +440,8 @@
 				3F961FEB1EA3A20F00821E0A /* ZFTest */,
 				3F961FFF1EA3A20F00821E0A /* ZFTestTests */,
 				3F96200A1EA3A21000821E0A /* ZFTestUITests */,
+				3FC151A11F1E170500508942 /* ZFGitCarthage */,
+				3FC151A91F1E170500508942 /* ZFGitCarthageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +453,7 @@
 			files = (
 				3F961FFA1EA3A20F00821E0A /* LaunchScreen.storyboard in Resources */,
 				3F961FF71EA3A20F00821E0A /* Assets.xcassets in Resources */,
+				3FC151CE1F1E191500508942 /* README.txt in Resources */,
 				3F961FF51EA3A20F00821E0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +472,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FC151A01F1E170500508942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC151A81F1E170500508942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC151CF1F1E191500508942 /* WXApiManager.m in Sources */,
 				3F961FF21EA3A20F00821E0A /* ViewController.swift in Sources */,
 				3F961FF01EA3A20F00821E0A /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +515,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FC1519D1F1E170500508942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC151A61F1E170500508942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC151B21F1E170500508942 /* ZFGitCarthageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +542,21 @@
 			isa = PBXTargetDependency;
 			target = 3F961FEB1EA3A20F00821E0A /* ZFTest */;
 			targetProxy = 3F96200C1EA3A21000821E0A /* PBXContainerItemProxy */;
+		};
+		3FC151AD1F1E170500508942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC151A11F1E170500508942 /* ZFGitCarthage */;
+			targetProxy = 3FC151AC1F1E170500508942 /* PBXContainerItemProxy */;
+		};
+		3FC151AF1F1E170500508942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F961FEB1EA3A20F00821E0A /* ZFTest */;
+			targetProxy = 3FC151AE1F1E170500508942 /* PBXContainerItemProxy */;
+		};
+		3FC151B61F1E170500508942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC151A11F1E170500508942 /* ZFGitCarthage */;
+			targetProxy = 3FC151B51F1E170500508942 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,6 +681,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZFTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/GrowingIO",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/MiPushSDK",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/WechatSDK1.7.7",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = miaoche.ZFTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -428,6 +699,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZFTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/GrowingIO",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/MiPushSDK",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/WechatSDK1.7.7",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = miaoche.ZFTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -488,6 +765,84 @@
 			};
 			name = Release;
 		};
+		3FC151BA1F1E170500508942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZFGitCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/GrowingIO",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/WechatSDK1.7.7",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = secoo.ZFGitCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FC151BB1F1E170500508942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZFGitCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/GrowingIO",
+					"$(PROJECT_DIR)/ZFTest/thirdPartFrameWork/WechatSDK1.7.7",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = secoo.ZFGitCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FC151BE1F1E170500508942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZFGitCarthageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = secoo.ZFGitCarthageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFTest.app/ZFTest";
+			};
+			name = Debug;
+		};
+		3FC151BF1F1E170500508942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZFGitCarthageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = secoo.ZFGitCarthageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFTest.app/ZFTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -507,6 +862,7 @@
 				3F9620161EA3A21000821E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9620171EA3A21000821E0A /* Build configuration list for PBXNativeTarget "ZFTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,12 +871,30 @@
 				3F9620191EA3A21000821E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F96201A1EA3A21000821E0A /* Build configuration list for PBXNativeTarget "ZFTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F96201B1EA3A21000821E0A /* Debug */,
 				3F96201C1EA3A21000821E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC151B91F1E170500508942 /* Build configuration list for PBXNativeTarget "ZFGitCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC151BA1F1E170500508942 /* Debug */,
+				3FC151BB1F1E170500508942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC151BD1F1E170500508942 /* Build configuration list for PBXNativeTarget "ZFGitCarthageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC151BE1F1E170500508942 /* Debug */,
+				3FC151BF1F1E170500508942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
